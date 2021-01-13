@@ -3,7 +3,7 @@
   
   - Entre na pasta é com CMD ou qualquer terminal que utilize rode o comando yarn 
   
-  - Concluido o download das dependencias rode o comando yarn start.
+  - Concluido o download das dependencias rode o comando yarn start no terminal. 
 
 # Getting Started with Create React App
 
