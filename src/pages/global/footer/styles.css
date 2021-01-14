@@ -4,6 +4,90 @@
 .box-btn-whatsapp img{
   width: 60px;
 }
+
+#div-main-footer{
+  width: 100%;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+#div-main-footer div {
+  width: 25%;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+
+#div-main-footer .text-footer-bottom {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+}
+
+#div-main-footer .text-footer-bottom img {
+  width: 50px;
+  margin-left: 20px; margin-right: 20px;
+}
+
+#div-main-footer .text-footer-bottom h5 {
+  color:#535353;
+  font-weight: 400;
+}
+
+#div-main-footer div ul {
+  color:#535353;
+  line-height: 2.0;
+}
+
+#div-main-footer div ul li {
+  cursor: pointer;
+}
+
+#div-main-footer div  h3 {
+  color:#8158c5;
+  margin-bottom: 20px;
+}
+
+#div-main-footer .col-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#div-main-footer .col-a h4{
+  color:#535353;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top:10px;
+}
+
+#div-main-footer .col-a p{
+  color:#535353;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top:10px;
+}
+
+#div-main-footer .col-a .div-icons-rodape{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+}
+
+#div-main-footer .col-a .div-icons-rodape img{
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
 @media only screen and (max-width: 1024px) {
   /* For mobile desktop: */
   
@@ -15,6 +99,36 @@
 }
 
 @media only screen and (max-width: 520px) {
+  #div-main-footer{
+    padding:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  #div-main-footer .col-a .div-icons-rodape img{
+    cursor: pointer;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
 
+  #div-main-footer div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #div-main-footer ul {
+    width: 100%;
+    text-align: center;
+  }
+
+  #div-main-footer h5 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
 }
