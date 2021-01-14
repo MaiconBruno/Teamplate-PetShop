@@ -43,8 +43,11 @@
   line-height: 2.0;
 }
 
-#div-main-footer div ul li {
-  cursor: pointer;
+#div-main-footer div ul li a {
+  columns: #555555;
+}
+#div-main-footer div ul li a:hover {
+  color:#ffa200;
 }
 
 #div-main-footer div  h3 {

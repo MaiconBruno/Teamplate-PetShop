@@ -119,18 +119,27 @@ export default function home() {
 
         {/* Focus section start*/}
         <div id="focus-section">
+
           <div className="div-title">
             <h2>
               Novidades
             </h2>
           </div>
+
           <div className="div-cards">
             {focusProducts.map(data => (
-              <div key={data.name} className="card">
-                <img className="product-image" src={data.image} alt="" />
-                <h2>{data.product}</h2>
-                <h3>{data.price}</h3>
-              </div>
+              <>
+                <div class="card">
+                  <img className="product-image" src={data.image} alt="" />
+                  <h2>{data.product}</h2>
+                  <h3>{data.price}</h3>
+                  <div class="card__overlay">
+                    <div class="overlay__text">
+                      <a href="#" class="button">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+              </>
             ))}
           </div>
         </div>
@@ -154,10 +163,15 @@ export default function home() {
           </div>
           <div className="div-cards">
             {AllProducts.map(data => (
-              <div key={data.name} className="card">
+              <div class="card">
                 <img className="product-image" src={data.image} alt="" />
                 <h2>{data.product}</h2>
                 <h3>{data.price}</h3>
+                <div class="card__overlay">
+                  <div class="overlay__text">
+                    <a href="#" class="button">Comprar</a>
+                  </div>
+                </div>
               </div>
             ))}
           </div>
@@ -193,13 +207,13 @@ export default function home() {
                     <h3><strong>CADASTRE-SE</strong> E GANHE DESCONTO</h3>
                   </div>
                 </div>
-                
+
               </div>
             </div>
             <div className="container-form">
               <div className="containter-title">
                 <h3>
-                    Assine nossa newslatter
+                  Assine nossa newslatter
                 </h3>
                 <p>Cadastre-se para receber novidades e descontos exclusivos!</p>
               </div>
@@ -214,7 +228,7 @@ export default function home() {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

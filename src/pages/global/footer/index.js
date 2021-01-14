@@ -26,10 +26,10 @@ export default function Footer() {
           
             <h3>PET STORE</h3>
             <ul>
-              <li>Quem somos</li>
-              <li>Como comprar</li>
-              <li>Trocas e Devoluções</li>
-              <li>Frete e Entregas</li>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Como comprar</a></li>
+              <li><a href="#">Trocas e Devoluções</a></li>
+              <li><a href="#">Frete e Entregas</a></li>
             </ul>
          
         </div>
@@ -37,9 +37,9 @@ export default function Footer() {
         <div className="col-c">
           <h3>CONTATO</h3>
           <ul>
-            <li>(99) 9999-9999</li>
-            <li>(99) 9999-9999</li>
-            <li>petstore@petstore.com.br</li>
+            <li><a href="#">(99) 9999-9999</a></li>
+            <li><a href="#">(99) 9999-9999</a></li>
+            <li><a href="#">petstore@petstore.com.br</a></li>
           </ul>
         </div>
 
