@@ -96,23 +96,15 @@ export default function home() {
       <Navbar />
       <div>
         {/* Banner Section start*/}
-        <section id="banner-section">
-
-        </section>
+        <section id="banner-section"></section>
         {/* Banner Section end*/}
 
         {/*Bars types of products start */}
         <div id="bar-types">
           <div className="sub-bar">
-            <div className="item-a">
-
-            </div>
-            <div className="item-b">
-
-            </div>
-            <div className="item-c">
-
-            </div>
+            <div className="item-a"></div>
+            <div className="item-b"></div>
+            <div className="item-c"></div>
           </div>
         </div>
         {/* Bar types of producs end */}
